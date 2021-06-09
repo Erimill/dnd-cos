@@ -10,7 +10,7 @@ import sx from './sx.js'
 const RacePage = (location) => {
   const data = useStaticQuery(query)
   const races = data.allJsonJson.nodes[0].Races
-  var currentRace
+  var currentRace = ''
   if(!location.path){
     currentRace = 'Information'
   }else{
@@ -30,24 +30,22 @@ const RacePage = (location) => {
     list.push(race.Race)
     renderPage[race.Race] = race
   })
-
+  var title = renderPage[currentRace] ? renderPage[currentRace].Race : 'Information'
   return (
     <Page  style={sx.pageStyles}>
       <div sx={sx.sidebar}>
         <Sidebar data={list} sx={sx.sidebar} />
       </div>
       <div sx={sx.main}>
-        <title>{renderPage[currentRace].Race}</title>
+        <title>{title}</title>
         <h1 style={sx.titleStyles}>
-          {renderPage[currentRace].Race}
+          {title}
         </h1>
         {ReturnRender(renderPage[currentRace])}
       </div>
     </Page>
   )
 }
-
-export default RacePage
 
 export const query = graphql`
 query {
@@ -106,3 +104,5 @@ query {
   }
 }
 `
+
+export default RacePage

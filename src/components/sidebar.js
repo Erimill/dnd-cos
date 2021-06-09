@@ -10,7 +10,6 @@ const Sidebar = ({ data }) => {
         destination = `/race/${item.toLowerCase()}`
         list.push(<ul><Link to={destination}>{item}</Link></ul>)
     })
-    console.log(list)
     return list
 }
 

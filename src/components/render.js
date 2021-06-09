@@ -1,11 +1,13 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 const ReturnRender = (race) => {
+    if(!race){
+      return null
+    }
     var returnlist = []
     const ignoreList = ['stats','race']
     for (const [key, value] of Object.entries(race)) {
       if(value !== null && !ignoreList.includes(key.toLowerCase())){
-        console.log('Key:',key,', Value:',value)
         if(typeof value === 'object'){
           var subrender = ReturnSubrender(value)
           returnlist.push(
