@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/dragon.png",
       },
     },
     "gatsby-plugin-mdx",
@@ -19,6 +19,22 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    "gatsby-transformer-json",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "Class",
+        path: "./src/json/Class",
+      },
+    },
+    "gatsby-transformer-json",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "Race",
+        path: "./src/json/races.json",
+      },
     },
   ],
 };

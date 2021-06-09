@@ -1,0 +1,42 @@
+{
+    "name" : "Suketsuki",
+    "size" : "Medium",
+    "race" : "Ogre Merfolk",
+    "class" : "Junker 1",
+    "alignment" : "",
+    "armorClass" : "",
+    "hp" : "8",
+    "speed" :{ 
+        "walk" : "30",
+        "swim" : "30"
+    },
+    "stats" : {
+        "str" : "20",
+        "dex" : "9",
+        "con" : "10",
+        "int" : "8",
+        "wis" : "8",
+        "cha" : "15"
+    },
+    "savingThrows" : [
+        "INT",
+        "WIS"
+    ],
+    "skills" : [
+        "Intimidation"
+    ],
+    "features" : [
+        "Brutish Strength",
+        "Merfolk Weapon Training", 
+        "Menacing", 
+        "Slippery"
+    ],
+    "spells": {
+        "cantrips" : [
+            "Poison Spray", 
+            "Acid Splash", 
+            "Ray of Frost"
+        ]
+    },
+    "inventory" : [""]
+}

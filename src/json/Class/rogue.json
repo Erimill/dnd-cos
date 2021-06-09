@@ -1,0 +1,148 @@
+{
+    "Class Name": "Rogue",
+    "Class Features": "As a rogue, you have the following class features.",
+    "Hit Points": {
+        "Hit Dice": "1d8 per rogue level",
+        "Hit Points at 1st Level": "8 + your Constitution modifier",
+        "Hit Points at Higher Levels": "1d8 + Con modifier"
+    },
+    "Proficiencies": {
+        "Armor": "Light armor",
+        "Weapons": "Simple,hand crossbows,longswords,rapiers,shortswords",
+        "Tools": "Thieves’ tools"
+    },
+    "Saving Throws": "Dex, Int",
+    "Skills":"Choose four: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth",
+    "Equipment": {
+        "Set1": "(a) a rapier or (b) a shortsword",
+        "Set2": "(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
+        "Set3": "(a) burglar’s pack,(b)dungeoneer’s pack, or(c)explorer’s pack",
+        "Set4": "(a) Leather armor, two daggers, and thieves’ tools"
+    },
+    "Expertise": "At 1st level, choose two of your proficiencies (skills or thieves’ tools). Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of proficiencies (in skills or with thieves’ tools).",
+    "Sneak Attack": "Beginning at 1st level, you can deal extra damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or ranged weapon. You don’t need advantage on the attack roll if another enemy of the target is within 5 feet, the enemy isn’t incapacitated, and you don’t have disadvantage on attack roll. The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.",
+    "Thieves’ Cant": "You learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in normal conversation. Only other creatures that knows thieves’ cant understand such messages. It takes  four times longer to convey such a message than to speak it plainly. In addition, you understand secret signs and symbols used for short, simple messages, such as an area is dangerous, if loot is nearby, or whether the people in an area are easy marks",
+    "Cunning Action": "Starting at 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
+    "Roguish Archetype": "At 3rd level, you choose an archetype that you emulate in your rogue abilities, such as Thief. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+    "Ability Score Improvement": "When you 4th,8th,10th,12th16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can’t increase an ability score above 20 using this.",
+    "Uncanny Dodge": "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the damage.",
+    "Evasion": "Beginning at 7th, you can dodge out of the way of area effects. When you make a Dex saving throw you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+    "Blindsense": "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.",
+    "Slippery Mind": "By 15th level, you gain proficiency in Wisdom saving throws.",
+    "Elusive": "Beginning at 18th level, you are so evasive that no attack roll has advantage against you while you aren’t incapacitated.",
+    "Stroke of Luck": "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses, you can turn the miss into a hit, or if you fail an ability check you can treat the d20 roll as a 20. Once you use this, you can’t use it again until you finish a short rest." ,
+    "Rogue Table": [
+        {
+            "Level": "1",
+            "Sneak Attack": "1d6",
+            "Features": "Expertise,Sneak Attack,Thieves Cant"
+            
+        },
+        {
+            "Level": "2",
+            "Sneak Attack": "1d6",
+            "Features": "Cunning Action"
+        },
+        {
+            "Level": "3",
+            "Sneak Attack": "2d6",
+            "Features": "Roguish Archetype"
+        },
+        {
+            "Level": "4",
+            "Sneak Attack": "2d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "5",
+            "Sneak Attack": "3d6",
+            "Features": "Uncanny Dodge"
+        },
+        {
+            "Level": "6",
+            "Sneak Attack": "3d6",
+            "Features": "Expertise"
+        },
+        {
+            "Level": "7",
+            "Sneak Attack": "4d6",
+            "Features": "Evasion"
+        },
+        {
+            "Level": "8",
+            "Sneak Attack": "4d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "9",
+            "Sneak Attack": "5d6",
+            "Features": "Roguish Archetype feature"
+        },
+        {
+            "Level": "10",
+            "Sneak Attack": "5d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "11",
+            "Sneak Attack": "6d6",
+            "Features": "Reliable Talent"
+        },
+        {
+            "Level": "12",
+            "Sneak Attack": "6d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "13",
+            "Sneak Attack": "7d6",
+            "Features": "Roguish Archetype feature"
+        },
+        {
+            "Level": "14",
+            "Sneak Attack": "7d6",
+            "Features": "Blindsense"
+        },
+        {
+            "Level": "15",
+            "Sneak Attack": "8d6",
+            "Features": "Slippery Mind"
+        },
+        {
+            "Level": "16",
+            "Sneak Attack": "8d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "17",
+            "Sneak Attack": "9d6",
+            "Features": "Roguish Archetype feature"
+        },
+        {
+            "Level": "18",
+            "Sneak Attack": "9d6",
+            "Features": "Elusive"
+        },
+        {
+            "Level": "19",
+            "Sneak Attack": "10d6",
+            "Features": "Ability Score Improvement"
+        },
+        {
+            "Level": "20",
+            "Sneak Attack": "10d6",
+            "Features": "Stroke of Luck"
+        }
+    ],
+    "Roguish Archetype Options": {
+        "Thief": {
+            "Description": "You hone your skills in larcenous arts. Burglars, bandits, cutpurses, and other criminals follow this archetype but so do rogues who think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn’t employ.",
+            "Fast Hands": "Starting at 3rd level, you can use the Cunning Action to make a Dex(Sleight of Hand) check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.",
+            "Second-Story Work": "When you choose this at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement. In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.",
+            "Supreme Sneak": "Starting at 9th level, you have advantage on a Dex (Stealth) check if you move no more than half your speed on the same turn.",
+            "Reliable Talent": "By 11th, you have refined your chosen skills to perfection. When you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
+            "Use Magic Device": "By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.",
+            "Thief’s Reflexes": "When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can’t use this feature when you are surprised."
+        }
+    }
+}

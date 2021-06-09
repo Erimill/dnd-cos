@@ -1,0 +1,188 @@
+{
+    "Name": "Barbarian",
+    "Information": 
+    [{
+        "Class Features": "As a barbarian, you gain the following class features.",
+        "Hit Points": {
+            "Hit Dice": "1d12 per barbarian level",
+            "Hit Points at 1st Level": "12 + your Constitution modifier",
+            "At Higher Levels": "1d12 + your Con modifier per barbarian level"
+        },
+        "Proficiencies": {
+            "Armor": "Light armor, medium armor, shields", 
+            "Weapons": "Simple weapons, martial weapons", 
+            "Tools": "None"
+        },
+        "Saving Throws": "Strength, Constitution",
+        "Skills": "Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival",
+        "Equipment": {
+            "Set1": "(a) a greataxe or (b) any martial melee weapon",
+            "Set2":  "(a) two handaxes or (b) any simple weapon",
+            "Set3":  "An explorer’s pack and four javelins"
+        },
+        "Rage": "In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren’t wearing heavy armor:",
+        "Rage Bonus": [ 
+            "You have advantage on Str checks and saving throws.", 
+            "When you make a melee attack using Str, you gain a bonus to the damage roll that increases as you level.",
+            "You resist bludgeoning, piercing, and slashing damage.",
+            "You can’t cast spells or concentrate on them while raging.",
+            "Rage lasts for 1 min. It ends early if you are unconscious or if your turn ends and you haven’t attacked a hostile creature or taken damage since last turn. You can also end your rage as a bonus action. Once you have raged the number of times shown for your level, you must finish a long rest before you can rage again."
+        ],
+        "Unarmored Defense": "While not wearing armor, your Armor Class equals 10 + your Dex modifier + your Con modifier. You can use a shield.",    
+        "Reckless Attack": "Starting at 2nd level, when you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Str during this turn, but attack rolls against you have advantage until your next turn.",
+        "Danger Sense": "At 2nd level, you gain a sense of when things nearby aren’t right. You have advantage on Dex saving throws against effects that you can see, such as traps and spells. You can’t be blind, deaf, or incapacitated.",
+        "Primal Path": "At 3rd level, you choose a path that shapes the nature of your rage. Your choice grants you features at 3rd, 6th, 10th, and 14th levels.",
+        "Ability Score Improvement": "When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score by 2, or two ability scores by 1. You can’t increase an ability score above 20 using this feature.",
+        "Extra Attack": "Starting 5th level, you can attack twice when you Attack.",
+        "Fast Movement": "At 5th level your speed increases 10 ft while not wearing heavy armor.",
+        "Feral Instinct": "By 7th level, you have advantage on initiative rolls. If you are surprised at the beginning of combat, you can act normally on your first turn if you enter your rage before doing anything else.",
+        "Brutal Critical": "At 9th level you roll an extra damage die (2 dice at 13th and 3 at 17th level) when determining extra damage on a melee critical.",
+        "Relentless Rage": "Starting at 11th level, if you drop to 0 HP while you’re raging and don’t die, you can make a DC 10 Con saving throw. If you do, you drop to 1 hit point instead. Each time you use this feature after, the DC increases by 5. When you finish a rest, the DC resets to 10.",
+        "Persistent Rage": "At 15th level, your rage ends only if you choose to end it.",
+        "Indomitable Might": "At 18th level, if your total for a Str check is less than your Str score, you can use that score in place of the total.",
+        "Primal Champion": "At 20th level, you embody the power of the wilds. Your Str and Con scores increase by 4. Your maximum for those scores is now 24."
+    }],
+    "Stats": {
+        "HP Dice": "1d12",
+        "Proficiencies": {
+            "Armor": "Light armor, medium armor, shields", 
+            "Weapons": "Simple weapons, martial weapons", 
+            "Tools": "None"
+        },
+        "Saving Throws": "STR, CON",
+        "Skill Count": "2",
+        "Skills": "Animal Handling, Athletics, Intimidation, Nature, Perception, Survival"
+    },
+    "Table": [
+        { 
+            "Level": "1",
+            "Features": "Rage, Unarmored Defense",
+            "Rages": "2",
+            "Rage Damage:": "2"
+        }, 
+        { 
+            "Level": "2",
+            "Features": "Reckless Attack, Danger Sense", 
+            "Rages": "2",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "3",
+            "Features": "Primal Path", 
+            "Rages": "3",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "4",
+            "Features": "Ability Score Increase", 
+            "Rages": "3",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "5",
+            "Features": "Extra Attack, Fast Movement", 
+            "Rages": "3",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "6",
+            "Features": "Path Feature", 
+            "Rages": "4",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "7",
+            "Features": "Feral Instinct", 
+            "Rages": "4",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "8",
+            "Features": "Ability Score Increase", 
+            "Rages": "4",
+            "Rage Damage:": "2"
+        },
+        { 
+            "Level": "9",
+            "Features": "Brutal Critical", 
+            "Rages": "4",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "10",
+            "Features": "Path Feature", 
+            "Rages": "4",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "11",
+            "Features": "Relentless Rage", 
+            "Rages": "4",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "12",
+            "Features":"Ability Score Increase", 
+            "Rages": "5",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "13",
+            "Features":"Brutal Critical",
+            "Rages": "5",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "14",
+            "Features":"Path Feature",
+            "Rages": "5",
+            "Rage Damage:": "3"
+        },
+        { 
+          
+            "Level": "15",
+            "Features":"Persistent Rage",
+            "Rages": "5",
+            "Rage Damage:": "3"
+        },
+        { 
+            "Level": "16",
+            "Features": "Ability Score Increase",
+            "Rages": "5",
+            "Rage Damage:": "4"
+        },
+        { 
+            "Level": "17",
+            "Features": "Brutal Critical",
+            "Rages": "6",
+            "Rage Damage:": "4"
+        },
+        { 
+            "Level": "18",
+            "Features": "Indomitable Might",
+            "Rages": "6",
+            "Rage Damage:": "4"
+        },
+        {
+            "Level": "19",
+            "Features": "Ability Score Increase",
+            "Rages": "6",
+            "Rage Damage:": "4"
+        },
+        { 
+            "Level": "20",
+            "Features": "Primal Champion",
+            "Rages": "Unlimited",
+            "Rage Damage:": "4"
+        }
+    ],
+    "Primal Path Options": {
+        "Path of the Berserker": {
+            "Description": "For some, rage is a means to an end, that being violence. The Path of the Berserker is a path of fury, slick with blood.As you enter rage you thrill in the chaos, heedless of your own health or well-­being.",
+            "Frenzy": "Starting when you choose this path, you can go into a frenzy when you rage. If you do, you can make a melee weapon attack as a bonus action on each of your turns while raging. When your rage ends, you suffer a level of exhaustion (see appendix PH-­A).",
+            "Mindless Rage": "Beginning at 6th level, you can’t be charmed or frightened while raging, and the effects are suspended for the duration of the rage.",
+            "Intimidating Presence": "Beginning 10th level you can use your action to frighten someone. When you do, choose a creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wis saving throw (DC=8+ your proficiency bonus+Cha modifier) or be frightened of you until the end of your next turn. Each turn, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you. If the creature succeeds on its saving throw, you can’t use this feature on that creature again for 24 hours.",
+            "Retaliation": "Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+        }
+    }
+}

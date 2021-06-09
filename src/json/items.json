@@ -1,0 +1,754 @@
+{
+    "Armor": {
+        "Light Armor" : {
+            "Padded": {
+                "Cost" : "5",
+                "AC" : "11 + Dex mod",
+                "Disadvantage" : "Stealth",
+                "Weight" : "8",
+                "Description" : "Padded armor consists of quilted layers of cloth and batting."
+            },
+            "Leather": {
+                "Cost" : "10",
+                "AC" : "11 + Dex mod",
+                "Weight" : "10",
+                "Description" : "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+            },
+            "Studded Leather" : {
+                "Cost" : "45",
+                "AC" : "12 + Dex mod",
+                "Weight" : "13",
+                "Description" : " Made from tough but flexible leather, studded leather is reinforced with close-‑set rivets or spikes."
+            }
+        },
+        "Medium Armor": {
+            "Hide" : {
+                "Cost": "10",
+                "AC" : "12 + Dex mod",
+                "Weight" : "12",
+                "Description" : "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
+            },
+            "Chain shirt" : {
+                "Cost" : "50",
+                "AC" : "13 + Dex mod",
+                "Weight" : "20",
+                "Description" : "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer’s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+            },
+            "Scale mail" : {
+                "Cost" : "50",
+                "AC" : "14 + Dex mod",
+                "Disadvantage" : "Stealth",
+                "Weight" : "45",
+                "Description" : "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+            },
+            "Breastplate" : {
+                "Cost" : "400",
+                "AC" : "14 + Dex mod",
+                "Weight" : "20",
+                "Description" : "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer’s vital organs while leaving the wearer relatively unencumbered."
+            },
+            "Half plate" : {
+                "Cost" : "750",
+                "AC" : "15 + Dex mod",
+                "Disadvantage" : "Stealth",
+                "Weight" : "40",
+                "Description" : "Half plate consists of shaped metal plates that cover most of the wearer’s body. It does not include leg protection beyond simple greaves that are attached with leather straps."
+            }
+        },
+        "Heavy Armor" : {
+            "Ring mail" : {
+                "Cost" : "30",
+                "AC" : "14",
+                "Disadvantage" : "Stealth",
+                "Weight" : "40",
+                "Description" : " This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can’t afford better armor."
+            },
+            "Chain mail" : {
+                "Cost" : "75",
+                "AC" : "16",
+                "Disadvantage" : "Stealth",
+                "Description" : " Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+            },
+            "Splint" : {
+                "Cost" : "200",
+                "AC" : "17",
+                "Prerequisite" : {
+                    "STR" : "15"
+                },
+                "Disadvantage" : "Stealth",
+                "Weight" : "60",
+                "Description" : "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding.  Flexible  chain  mail protects the joints."
+            },
+            "Plate" : {
+                "Cost" : "1500",
+                "AC" : "18",
+                "Prerequisite" : {
+                    "STR" : "15"
+                },
+                "Disadvantage" : "Stealth",
+                "Weapon" : "65",
+                "Description" : "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+            }
+        },
+        "Shield" : {
+            "Cost" : "10",
+            "AC" : "+2",
+            "Weight" : "6",
+            "Description" : "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+        }
+    },
+    "Weapons" : {
+        "Simple Melee Weapons" : {	
+            "Club" : {
+                "Cost" : "0.1",
+                "Damage" : "1d4 bludgeoning",
+                "Weight" : "2",
+                "Properties" : "Light"
+            },
+            "Dagger" : {
+                "Cost" : "2",
+                "Damage" : "1d4 piercing",
+                "Weight" : "1",
+                "Properties" : "Finesse, light, thrown (range 20/60)"
+            },
+            "Greatclub" : {
+                "Cost" : ".2",
+                "Damage" : "1d8 bludgeoning",
+                "Weight" : "10",
+                "Properties": "Two‐handed"
+            },
+            "Handaxe" : {
+                "Cost" : "5",
+                "Damage" : "1d6 slashing",
+                "Weight" : "2",
+                "Properties" : "Light, thrown (range 20/60)"
+            },
+            "Javelin" : {
+                "Cost" : ".5",
+                "Damage" : "1d6 piercing",
+                "Weight" : "2",
+                "Properties" : "Thrown (range 30/120)"
+            },
+            "Light hammer" : {
+                "Cost" : "2",
+                "Damage" : "1d4 bludgeoning",
+                "Weight" : "2",
+                "Properties" : "Light, thrown (range 20/60)"
+            },
+            "Mace" : {
+                "Cost" : "5",
+                "Damage" : "1d6 bludgeoning",
+                "Weight" : "40"
+            },
+            "Quarterstaff" : {
+                "Cost" : ".2",
+                "Damage" : "1d6 bludgeoning",
+                "Weight" : "4",
+                "Properties" : "Versatile (1d8)"
+            },
+            "Sickle" : {
+                "Cost" : "1",
+                "Damage" : "1d4 slashing",
+                "Weight" : "2",
+                "Properties" : "Light"
+            },
+            "Spear" : {
+                "Cost" : "1",
+                "Damage" : "1d6 piercing",
+                "Weight" : "3",
+                "Properties" : "Thrown (range 20/60), versatile (1d8)"
+            }
+        },
+        "Simple Ranged Weapons" : {
+            "Crossbow, light" : {
+                "Cost" : "25",
+                "Damage" : "1d8 piercing",
+                "Weight" : "5",
+                "Properties" : "Ammunition (range 80/320), loading, two­‐handed"
+            },
+            "Dart" : {
+                "Cost" : ".05",
+                "Damage" : "1d4 piercing",
+                "Weight" : ".25",
+                "Properties" : "Finesse, thrown (range 20/60)"
+            },
+            "Shortbow" : {
+                "Cost" : "25",
+                "Damage" : "1d6 piercing",
+                "Weight" : "2",
+                "Properties" : "Ammunition (range 80/320), two-­handed"
+            },
+            "Sling" : {
+                "Cost" : ".1",
+                "Damage" : "1d4 bludgeoning",
+                "Properties" : "Ammunition (range 30/120)"
+            }
+        },
+        "Martial Melee Weapons" : {
+            "Battleaxe" : {
+                "Cost" : "10",
+                "Damage" : "1d8 slashing",
+                "Weight" : "4",
+                "Properties" : "Versatile (1d10)"
+            },
+            "Flail" : {
+                "Cost" : "10",
+                "Damage" : "1d8 bludgeoning",
+                "Weight" : "2"
+            },
+            "Glaive" : {
+                "Cost" : "20",
+                "Damage" : "1d10 slashing",
+                "Weight" : "6",
+                "Properties" : "Heavy, reach, two‐handed"
+            },
+            "Greataxe" : {
+                "Cost" : "30",
+                "Damage" : "1d12 slashing",
+                "Weight" : "7",
+                "Prooperties" : "Heavy, two-­handed"
+            },
+            "Greatsword" : {
+                "Cost" : "50",
+                "Damage" : "2d6 slashing",
+                "Weight" : "6",
+                "Properties" : "Heavy, two-‐handed"
+            },
+            "Halberd" : {
+                "Cost" : "20",
+                "Damage" : "1d10 slashing",
+                "Weight" : "6", 
+                "Properties" : "Heavy, reach, two-handed"
+            },
+            "Lance" : {
+                "Cost" : "10", 
+                "Damage" : "1d12 piercing",
+                "Weight" : "6", 
+                "Properties" : "Reach, special",
+                "Description" : "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted."
+            },
+            "Longsword" : {
+                "Cost" : "15", 
+                "Damage" : "1d8 slashing",
+                "Weight" : "3",
+                "Properties" : "Versatile (1d10)"
+            },
+            "Maul" : {
+                "Cost" : "10",
+                "Damage" : "2d6 bludgeoning",
+                "Weight" : "10",
+                "Properties" : "Heavy, two‐handed"
+            },
+            "Morningstar" : {
+                "Cost" : "15", 
+                "Damage" : "1d8 piercing",
+                "Weight" : "4"
+            },
+            "Pike" : {
+                "Cost" : "5",
+                "Damage" : "1d10 piercing",
+                "Weight" : "18",
+                "Properties" : "Heavy, reach, two­‐handed"
+            },
+            "Rapier" : {
+                "Cost" : "25",
+                "Damage" : "1d8 piercing",
+                "Weight" : "2",
+                "Properties" : "Finesse"
+            },
+            "Scimitar" : {
+                "Cost" : "25",
+                "Damage" : "1d6 slashing",
+                "Weight" : "3",
+                "Properties" : "Finesse, light"
+            },
+            "Shortsword" : {
+                "Cost" : "10",
+                "Damage" : "1d6 piercing",
+                "Weight" : "2",
+                "Properties" : "Finesse, light"
+            },
+            "Trident" : {
+                "Cost" : "5",
+                "Damage" : "1d6 piercing",
+                "Weight" : "4",
+                "Properties" : "Thrown (range 20/60), versatile (1d8)"
+            },
+            "War pick" : {
+                "Cost" : "5",
+                "Damage" : "1d8 piercing",
+                "Weight" : "2"
+            },
+            "Warhammer" : {
+                "Cost" : "15",
+                "Damage" : "1d8 bludgeoning",
+                "Weight" : "2",
+                "Properties" : "Versatile (1d10)"
+            },
+            "Whip" : {
+                "Cost" : "2",
+                "Damage" : "1d4 slashing",
+                "Weight" : "3",
+                "Properties" : "Finesse, reach"
+            }
+        },
+        "Martial Ranged Weapons" : {
+            "Blowgun" : {
+                "Cost" : "10",
+                "Damage" : "1 piercing",
+                "Weight" : "1", 
+                "Properties" : "Ammunition (range 25/100), loading"
+            },
+            "Crossbow, hand" : {
+                "Cost" : "75",
+                "Damage" : "1d6 piercing",
+                "Weight" : "3",
+                "Properties" : "Ammunition (range 30/120), light, loading"
+            },
+            "Crossbow, heavy" : {
+                "Cost" : "50",
+                "Damage" : "1d10 piercing",
+                "Weight" : "18",
+                "Properties" : "Ammunition (range 100/400), heavy, loading, two-­handed"
+            },
+            "Longbow" : {
+                "Cost" : "50",
+                "Damage" : "1d8 piercing",
+                "Weight" : "2",
+                "Properties" : "Ammunition (range 150/600), heavy, two-­handed"
+            },
+            "Net" : {
+                "Cost" : "1",
+                "Weight" : "3",
+                "Properties" : "Special, thrown (range 5/15)",
+                "Description" : "A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+            }
+        }
+    },
+    "Adventuring Gear" : {
+        "Acid (vial)" : {
+            "Cost" : "25",
+            "Weight" : "1",
+            "Description" : " As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
+        },
+        "Alchemist’s fire (flask)" : {
+            "Cost" : "50",
+            "Weight" : "1",
+            "Description" : "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+        },
+        "Ammunition" : {
+            "Arrows (20)" : {
+                "Cost" : "1",
+                "Weight" : "1"
+            },  
+            "Blowgun needles (50)" : {
+                "Cost" : "1",
+                "Weight" : "1"
+            },
+            "Crossbow bolts (20)" : {
+                "Cost" : "1",
+                "Weight" : "1.5"
+            },  
+            "Sling bullets (20)" : {
+                "Cost" : ".04",
+                "Weight" : "1.5"
+            }
+        },
+        "Antitoxin (vial)" : {
+            "Cost" : "50",
+            "Description" : "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
+        },
+        "Arcane focus" : {
+            "Description" : "An arcane focus is a special item— an orb, a crystal, a rod, a specially constructed staff, a wand-­like length of wood, or some similar item— designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.",
+            "Crystal" : {
+                "Cost" : "10",
+                "Weight" : "1"
+            },  
+            "Orb" : {
+                "Cost" : "20",
+                "Weight" : "3"
+            },  
+            "Rod" : {
+                "Cost" : "10",
+                "Weight" : "2"
+            },  
+            "Staff" : {
+                "Cost" : "5",
+                "Weight" : "4"
+            },
+            "Wand" : {
+                "Cost" : "10",
+                "Weight" : "1"
+            }
+        },
+        "Backpack" : {
+            "Cost" : "2",
+            "Weight" : "5"
+        },
+        "Ball bearings (bag of 1,000)" : {
+            "Cost" : "1",
+            "Weight" : "2",
+            "Description" : "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
+        },
+        "Barrel" : {
+            "Cost" : "2",
+            "Weight" : "70"
+        },
+        "Basket" : {
+            "Cost" : ".4",
+            "Weight" : "2"
+        },
+        "Bedroll" : {
+            "Cost" : "1",
+            "Weight" : "7"
+        },
+        "Bell" : {
+            "Cost" : "1"
+        },
+        "Blanket" : {
+            "Cost" : ".5",
+            "Weight" : "3"
+        },
+        "Block and tackle" : {
+            "Cost" : "1",
+            "Weight" : "5",
+            "Description" : "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+        },
+        "Book" : {
+            "Cost" : "25",
+            "Weight" : "5",
+            "Description" : "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook."
+        },
+        "Bottle, glass" : {
+            "Cost" : "2",
+            "Weight" : "2"
+        },
+        "Bucket" : {
+            "Cost" : ".05",
+            "Weight" : "2"
+        },
+        "Caltrops (bag of 20)" : {
+            "Cost" : "1",
+            "Weight" : "2",
+            "Description" : "As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area  must  succeed  on  a DC 15 Dexterity saving throw  or  stop  moving  this turn and take 1 piercing damage. Taking this damage reduces the creature’s walking speed by  10  feet until the creature regains at least 1 hit point. A creature moving through the  area  at  half  speed  doesn’t  need to make the save."
+        },
+        "Candle" : {
+            "Cost" : ".01",
+            "Description" : "For 1 hour, a candle sheds bright light in a 5-­foot radius and dim light for an additional 5 feet."
+        },
+        "Case, crossbow bolt" : {
+            "Cost" : "1",
+            "Weight" : "1",
+            "Description" : "This wooden case can hold up to twenty crossbow bolts."
+        },
+        "Case, map or scroll" : {
+            "Cost" : "1",
+            "Weight" : "1",
+            "Description" : "This cylindrical leather case can hold up to ten rolled-­up sheets of paper or five rolled‑up sheets of parchment."
+        },
+        "Chain (10 feet)" : {
+            "Cost" : "5",
+            "Weight" : "10",
+            "Description" : "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+        },
+        "Chalk (1 piece)" : {
+            "Cost" : ".01"
+        },
+        "Chest" : {
+            "Cost" : "5",
+           "Weight" : "25"
+        },
+        "Climber’s kit" : {
+            "Cost" : "25",
+            "Weight" : "12",
+            "Description" : "A climber’s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber’s kit as an action to anchor yourself; when you do, you can’t fall more than 25 feet from the point where you anchored yourself, and you can’t climb more than 25 feet away from that point without undoing the anchor."
+        },
+        "Clothes, common" : {
+            "Cost" : ".5",
+            "Weight" : "3"
+        },
+        "Clothes, costume" : {
+            "Cost" : "5",
+            "Weight" : "4"
+        },
+        "Clothes, fine" : {
+            "Cost" : "15",
+            "Weight" : "6"
+        },
+        "Clothes, traveler’s" : {
+            "Cost" : "2",
+            "Weight" : "4"
+        },
+        "Component pouch" : {
+            "Cost" : "25",
+            "Weight" : "2",
+            "Description" : "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+        },
+        "Crowbar" : {
+            "Cost" : "2",
+            "Weight" : "5",
+            "Description" : "Using a crowbar grants advantage to Strength checks where the crowbar’s leverage can be applied."
+        },
+        "Druidic focus" : {
+            "Description" : "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus.",
+            "Sprig of mistletoe" : {
+                "Cost" : "1"
+            },
+            "Totem" : { 
+                "Cost" : "1"
+            },
+            "Wooden staff" : {
+                "Cost" : "5",
+                "Weight" : "4"
+            },
+            "Yew wand" : {
+                "Cost" : "10",
+                "Weight" : "1"
+            }
+        },
+        "Fishing tackle" : {
+            "Cost" : "1",
+            "Weight" : "4",
+            "Description" : "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+        },
+        "Flask or tankard" : {
+            "Cost" : ".02",
+            "Weight" : "1"
+        },
+        "Grappling hook" : {
+            "Cost" : "2",
+            "Weight" : "4"
+        },
+        "Hammer" : {
+            "Cost" : "1",
+            "Weight" : "3"
+        },
+        "Hammer, sledge" : {
+            "Cost" : "2",
+            "Weight" : "10"
+        },
+        "Healer’s kit" : {
+            "Cost" : "5",
+            "Weight" : "3",
+            "Description" : "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+        },
+        "Holy symbol" : {
+            "Description" : "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+            "Amulet" : {
+                "Cost" : "5",
+                "Weight" : "1"
+            },
+            "Emblem" : {
+                "Cost" : "5"
+            },
+            "Reliquary" : {
+                "Cost" : "5",
+                "Weight" : "2"
+            }
+        },
+        "Holy water (flask)" : {
+            "Cost" : "25",
+            "Weight" : "1",
+            "Description" : "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-­level spell slot"
+        },
+        "Hourglass" : {
+            "Cost" : "25",
+            "Weight" : "1"
+        },
+        "Hunting trap" : {
+            "Cost" : "5",
+            "Weight" : "25",
+            "Description" : "When you use your action to set it, this trap forms a saw-­toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+        },
+        "Ink (1 ounce bottle)" : {
+            "Cost" : "10"
+        },
+        "Ink pen" : {
+            "Cost" : ".02"
+        },
+        "Jug or pitcher" : {
+            "Cost" : ".02",
+            "Weight" : "4"
+        },
+        "Ladder (10-foot)" : {
+            "Cost" : ".1",
+            "Weight" : "25"
+        },
+        "Lamp" : {
+            "Cost" : ".5",
+            "Weight" : "1",
+            "Description" : "A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+        },
+        "Lantern, bullseye" : {
+            "Cost" : "10",
+            "Weight" : "2",
+            "Description" : "A bullseye lantern casts bright light in a 60-­foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+        },
+        "Lantern, hooded" : {
+            "Cost" : "5",
+            "Weight" : "2",
+            "Description" : "A hooded lantern casts bright light in a 30-­foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-­foot radius."
+        },
+        "Lock" : {
+            "Cost" : "10",
+            "Weight" : "1",
+            "Description" : "A key is provided with the lock. Without the key, a creature proficient with thieves’ tools can pick this lock with a successful DC 15 Dexterity check."
+        },
+        "Magnifying glass" : {
+            "Cost" : "100",
+            "Description" : "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
+        },
+        "Manacles" : {
+            "Cost" : "2",
+            "Weight" : "6",
+            "Description" : "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves’ tools can pick the manacles’ lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
+        },
+        "Mess kit" : {
+            "Cost" : ".2",
+            "Weight" : "1",
+            "Description" : "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+        },
+        "Mirror, steel" : {
+            "Cost" : "5",
+            "Weight" : "1/2"
+        },
+        "Oil (flask)" : {
+            "Cost" : ".1",
+            "Weight" : "1",
+            "Description" : "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-­foot-­square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
+        },
+        "Paper (one sheet)" : {
+            "Cost" : ".2"
+        },
+        "Parchment (one sheet)" : {
+            "Cost" : ".1"
+        },
+        "Perfume (vial)" : {
+            "Cost" : "5"
+        },
+        "Pick, miner’s" : {
+            "Cost" : "2",
+            "Weight" : "10"
+        },
+        "Piton" : {
+            "Cost" : ".05",
+            "Weight" : ".25"
+        },
+        "Poison, basic (vial)" : {
+            "Cost" : "100",
+            "Description" : "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+        },
+        "Pole (10-foot)" : {
+            "Cost" : ".05",
+            "Weight" : "7"
+        },
+        "Pot, iron" : {
+            "Cost" : "2",
+            "Weight" : "10"
+        },
+        "Potion of healing" : {
+            "Cost" : "50",
+            "Weight" : ".5",
+            "Description" : "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."
+        },
+        "Pouch" : {
+            "Cost" : ".5",
+            "Weight" : "1",
+            "Description" : "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch"
+        },
+        "Quiver" : {
+            "Cost" : "1",
+            "Weight" : "1",
+            "Description" : "A quiver can hold up to 20 arrows."
+        },
+        "Ram, portable" : {
+            "Cost" : "4",
+            "Weight" : "35",
+            "Description" : "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+        },
+        "Rations (1 day)" : {
+            "Cost" : ".5",
+            "Weight" : "2",
+            "Description" : "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+        },
+        "Robes" : {
+            "Cost" : "1",
+            "Weight" : "4"
+        },
+        "Rope, hempen (50 feet)" : {
+            "Cost" : "1",
+            "Weight" : "10",
+            "Description" : "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+        },
+        "Rope, silk (50 feet)" : {
+            "Cost" : "10",
+            "Weight" : "5",
+            "Description" : "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+        },
+        "Sack" : {
+            "Cost" : ".01",
+            "Weight" : ".5"
+        },
+        "Scale, merchant’s" : {
+            "Cost" : "5",
+            "Weight" : "3",
+            "Description" : "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+        },
+        "Sealing wax" : {
+            "Cost" : ".5"
+        },
+        "Shovel" : {
+            "Cost" : "2",
+            "Weight" : "5"
+        },
+        "Signal whistle" : {
+            "Cost" : ".05"
+        },
+        "Signet ring" : {
+            "Cost" : "5"
+        },
+        "Soap" : {
+            "Cost" : ".02"
+        },
+        "Spellbook" : {
+            "Cost" : "50",
+            "Weight" : "3",
+            "Description" : "Essential for wizards, a spellbook is a leather‑bound tome with 100 blank vellum pages suitable for recording spells."
+        },
+        "Spikes, iron (10)" : {
+            "Cost" : "1",
+            "Weight" : "5"
+        },
+        "Spyglass" : {
+            "Cost" : "1,000",
+            "Weight" : "1",
+            "Description" : "Objects viewed through a spyglass are magnified to twice their size."
+        },
+        "Tent, two-person" : {
+            "Cost" : "2",
+            "Weight" : "20",
+            "Description" : "A simple and portable canvas shelter, a tent sleeps two."
+        },
+        "Tinderbox" : {
+            "Cost" : ".5",
+            "Weight" : "1",
+            "Description" : "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute."
+        },
+        "Torch" : {
+            "Cost" : ".01",
+            "Weight" : "1",
+            "Description" : "A torch burns for 1 hour, providing bright light in a 20‑foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+        },
+        "Vial" : {
+            "Cost" : "1"
+        },
+        "Waterskin" : {
+            "Cost" : ".2",
+            "Weight" : "5 (full)"
+        },
+        "Whetstone" : {
+            "Cost" : ".01",
+            "Weight" : "1"
+        }
+    }
+ }

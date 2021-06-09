@@ -1,0 +1,497 @@
+{
+    "Classes":
+        [{
+        "Class": "Barbarian",
+        "HP Dice": "1d12",
+        "Proficiencies": {
+            "Armor": "Light armor, medium armor, shields", 
+            "Weapons": "Simple weapons, martial weapons", 
+            "Tools": "None"
+        },
+        "Saving Throws": "STR, CON",
+        "Skill Count": "2",
+        "Skills": "Animal Handling, Athletics, Intimidation, Nature, Perception, Survival",
+        "Table": [
+            { 
+                "Level": "1",
+                "Rages": "2",
+                "Rage Damage": "2"
+            }, 
+            { 
+                "Level": "2",
+                "Rages": "2",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense"
+            },
+            { 
+                "Level": "3",
+                "Rages": "3",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path"
+            },
+            { 
+                "Level": "4",
+                "Rages": "3",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement"
+            },
+            { 
+                "Level": "5",
+                "Rages": "3",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement"
+            },
+            { 
+                "Level": "6",
+                "Rages": "4",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement"
+            },
+            { 
+                "Level": "7",
+                "Rages": "4",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct"
+            },
+            { 
+                "Level": "8",
+                "Rages": "4",
+                "Rage Damage": "2",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement"
+            },
+            { 
+                "Level": "9",
+                "Rages": "4",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical"
+            },
+            { 
+                "Level": "10",
+                "Rages": "4",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical"
+            },
+            { 
+                "Level": "11",
+                "Rages": "4",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage"
+            },
+            { 
+                "Level": "12",
+                "Rages": "5",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement"
+            },
+            { 
+                "Level": "13",
+                "Rages": "5",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement"
+            },
+            { 
+                "Level": "14",
+                "Rages": "5",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement"
+            },
+            { 
+            
+                "Level": "15",
+                "Rages": "5",
+                "Rage Damage": "3",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage"
+            },
+            { 
+                "Level": "16",
+                "Rages": "5",
+                "Rage Damage": "4",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage, Ability Score Improvement"
+            },
+            { 
+                "Level": "17",
+                "Rages": "6",
+                "Rage Damage": "4",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage, Ability Score Improvement"
+            },
+            { 
+                "Level": "18",
+                "Rages": "6",
+                "Rage Damage": "4",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage, Ability Score Improvement, Indomitable Might"
+            },
+            {
+                "Level": "19",
+                "Rages": "6",
+                "Rage Damage": "4",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage, Ability Score Improvement, Indomitable Might, Ability Score Improvement"
+            },
+            { 
+                "Level": "20",
+                "Rages": "Unlimited",
+                "Rage Damage": "4",
+                "Ability": "Reckless Attack, Danger Sense, Primal Path, Ability Score Improvement, Extra Attack, Fast Movement, Feral Instinct, Ability Score Improvement, Brutal Critical, Relentless Rage, Ability Score Improvement, Persistent Rage, Ability Score Improvement, Indomitable Might, Ability Score Improvement, Primal Champion"
+            }
+        ]
+    },
+    {
+        "Class": "Bard",
+        "HP Dice": "1d8",
+        "Proficiencies": {
+            "Armor": "Light armor",
+            "Weapons": "Simple, hand crossbows, longswords, rapiers, shortswords",
+            "Tools": "Three musical instruments of your choice"
+        },
+        "Saving Throws": "DEX, CHA",
+        "Skill Count": "3",
+        "Skills": "Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth, Survival",
+        "Table": [
+            {
+                "Level": "1",
+                "Cantrips Known": "2",
+                "Spells Known": "4",
+                "Ability": "Bardic Inspiration"
+            },
+            { 
+                "Level": "2",
+                "Cantrips Known": "2",
+                "Spells Known": "5",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest"
+            },
+            {   "Level": "3",
+                "Cantrips Known": "2",
+                "Spells Known": "6",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise"
+            },
+            {
+                "Level": "4",
+                "Cantrips Known": "3",
+                "Spells Known": "7",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement"
+            },
+            {
+                "Level": "5",
+                "Cantrips Known": "3",
+                "Spells Known": "8",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration"
+            },
+            {
+                "Level": "6",
+                "Cantrips Known": "3",
+                "Spells Known": "9",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm"
+            },
+            {
+                "Level": "7",
+                "Cantrips Known": "3",
+                "Spells Known": "10",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm"
+            },
+            {
+                "Level": "8",
+                "Cantrips Known": "3",
+                "Spells Known": "11",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement"
+            },
+            {   "Level": "9",
+                "Cantrips Known": "3",
+                "Spells Known": "12",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement"
+            },
+            {
+                "Level": "10",
+                "Cantrips Known": "4",
+                "Spells Known": "14",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets"
+            },
+            {
+                "Level": "11",
+                "Cantrips Known": "4",
+                "Spells Known": "15",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets"
+            },
+            {
+                "Level": "12",
+                "Cantrips Known": "4",
+                "Spells Known": "15",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "13",
+                "Cantrips Known": "4",
+                "Spells Known": "16",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "14",
+                "Cantrips Known": "4",
+                "Spells Known": "18",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "15",
+                "Cantrips Known": "4",
+                "Spells Known": "19",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "16",
+                "Cantrips Known": "4",
+                "Spells Known": "19",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "17",
+                "Cantrips Known": "4",
+                "Spells Known": "20",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+            "Level": "18",
+            "Cantrips Known": "4",
+            "Spells Known": "22",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement"
+            },
+            {
+                "Level": "19",
+                "Cantrips Known": "4",
+                "Spells Known": "22",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement, Ability Score Improvement"
+            },
+            {
+                "Level": "20",
+                "Cantrips Known": "4",
+                "Spells Known": "22",
+                "Ability": "Bardic Inspiration, Jack of All Trades, Song of Rest, Bard College, Expertise, Ability Score Improvement, Font of Inspiration, Countercharm, Ability Score Improvement, Magical Secrets, Ability Score Improvement, Ability Score Improvement, Superior Inspiration"
+            }
+        ]
+    },
+    {
+        "Class": "Cleric",
+        "HP Dice": "1d8",
+        "Proficiencies": {
+            "Armor": "Light armor, medium armor, shields",
+            "Weapons": "Simple weapons",
+            "Tools": "None"
+        },
+        "Saving Throws": "Wisdom, Charisma",
+        "Skill Count": "2",
+        "Skills": "History, Insight, Medicine, Persuasion, Religion",
+        "Table": [
+            {
+                "Level": "1",
+                "Cantrips Known": "3",
+                "Ability": "Spell Casting, Divine Domain"
+            },
+            {
+                "Level": "2",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity",
+                "Cantrips Known": "3"   
+            },
+            {
+                "Level": "3",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity",
+                "Cantrips Known": "3"   
+            },
+            {
+                "Level": "4",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "5",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "6",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "7",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "8",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "9",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement",
+                "Cantrips Known": "4"   
+            },
+            {
+                "Level": "10",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "11",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "12",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "13",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "14",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "15",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "16",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "17",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "18",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "19",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            },
+            {
+                "Level": "20",
+                "Ability": "Spell Casting, Divine Domain, Channel Divinity, Ability Score Improvement, Destroy Undead, Ability Score Improvement, Divine Intervention, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "5"   
+            }
+        ]  
+    },
+    {
+        "Class": "Druid",
+        "HP Dice": "1d8",
+        "Proficiencies": {
+            "Armor": "Light armor, medium armor, shields",
+            "Weapons": "Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears",
+            "Tools": "Herbalism kit"
+        },
+        "Saving Throws": "INT, WIS",
+        "Skill Count": "2",
+        "Skills": "Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival",
+        "Table": [
+            {
+                "Level": "1",
+                "Ability": "Druidic",
+                "Cantrips Known": "2"
+            },
+            {
+                "Level": "2",
+                "Ability": "Druidic, Wild Shape, Druid Circle",
+                "Cantrips Known": "2"
+            },
+            {
+                "Level": "3",
+                "Ability": "Druidic, Wild Shape, Druid Circle",
+                "Cantrips Known": "2"
+            },
+            {
+                "Level": "4",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "5",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "6",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "7",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "8",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "9",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "3"
+            },
+            {
+                "Level": "10",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "11",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "12",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "13",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "14",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "15",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "16",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "17",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "18",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement, Timeless Body, Beast Spells",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "19",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement, Timeless Body, Beast Spells, Ability Score Improvement",
+                "Cantrips Known": "4"
+            },
+            {
+                "Level": "20",
+                "Ability": "Druidic, Wild Shape, Druid Circle, Ability Score Improvement, Ability Score Improvement, Ability Score Improvement, Timeless Body, Beast Spells, Ability Score Improvement, Archdruid",
+                "Cantrips Known": "4"
+            }
+        ]
+    }]
+}

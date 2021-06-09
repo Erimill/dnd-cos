@@ -1,0 +1,490 @@
+{
+    "Alignment": {
+        "A1": [
+            "Chaotic", 
+            "Neutral", 
+            "Lawful", 
+            "Unaligned"
+        ],
+        "A2": [
+            "Good", 
+            "Neutral", 
+            "Evil", 
+            "Unaligned"
+        ]
+    },
+    "Size": [
+        "Tiny",
+        "Small",
+        "Medium",
+        "Large",
+        "Huge",
+        "Gargantuan"
+    ],
+    "Type": [
+        "Abberition",
+        "Beast",
+        "Celestial",
+        "Dragon",
+        "Elemental",
+        "Fey",
+        "Fiend",
+        "Giant",
+        "Humanoid",
+        "Monstrosity",
+        "Ooze",
+        "Plant",
+        "Undead"
+    ],
+    "Race": [
+        "Dragonborn",
+        "Dwarf",
+        "Elf",
+        "Gnome",
+        "Half-Elf",
+        "Half-Orc",
+        "Halfling",
+        "Human",
+        "Teifling"
+    ],
+    "Class": [
+        "Barbarian",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Fighter",
+        "Monk",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+    ],
+    "Multiclassing":  {
+        "Barbarian": {
+            "Requirements": "STR",
+            "Proficiencies Gained": "Shields, simple weapons, martial weapons"
+        },   
+        "Bard": {
+            "Requirements": "CHA",
+            "Proficiencies Gained": "Light armor, one skill of your choice, one musical instrument of your choice"
+        },
+        "Cleric": {
+            "Requirements": "WIS",
+            "Proficiencies Gained": "Light armor, medium armor, shields"
+        },
+        "Druid": {
+            "Requirements": "WIS",
+            "Proficiences Gained": "Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)"
+        },
+        "Fighter": {
+            "Requirements": "STR, DEX",
+            "Proficiencies Gained": "Light armor, medium armor, shields, simple weapons, martial weapons"
+        },
+        "Monk": {
+            "Requirements": "DEX, WIS",
+            "Proficiencies Gained": "Simple weapons, shortswords"
+        },
+        "Paladin": {
+            "Requirements": "STR, CHA",
+            "Proficiencies Gained": "Light armor, medium armor, shields, simple weapons, martial weapons"
+        },
+        "Ranger": {
+            "Requirements": "DEX, WIS",
+            "Proficiencies Gained": "Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list"
+        },
+        "Rogue": {
+            "Requirements": "DEX",
+            "Proficiencies Gained": "Light armor, one skill from the class’s skill list, thieves’ tools"
+        },
+        "Sorcerer": {
+            "Requirements": "CHA"
+        },
+        "Warlock": {
+            "Requirements": "CHA",
+            "Proficiencies Gained": "Light armor, simple weapons"
+        },
+        "Wizard": {
+            "Requirements": "INT"
+        }
+    },
+    "Language": [
+        "Abyssal",
+        "Celestial",
+        "Common",
+        "Deep Speech",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Infernal",
+        "Orc",
+        "Primal",
+        "Sylvan",
+        "Undercommon"
+    ],
+    "Currency": {
+        "CP": "100",
+        "SP": "10",
+        "EP": "2",
+        "GP": "1",
+        "PP": "0.1"
+    },
+    "Character Advancement Table": [
+        { 
+            "XP": "0",
+            "Level": "1",
+            "Proficiency Bonus": "2"
+        },
+        { 
+            "XP": "300",
+            "Level": "2",
+            "Proficiency Bonus": "2"
+        },
+        { 
+            "XP": "900",
+            "Level": "3",
+            "Proficiency Bonus": "2"
+        },        { 
+            "XP": "2700",
+            "Level": "4",
+            "Proficiency Bonus": "2"
+        },        { 
+            "XP": "6500",
+            "Level": "5",
+            "Proficiency Bonus": "3"
+        },
+        {
+            "XP": "14000",
+            "Level": "6",
+            "Proficiency Bonus": "3"
+        },
+        {
+            "XP": "23000",
+            "Level": "7",
+            "Proficiency Bonus": "3"
+        },
+        {
+            "XP": "34000",
+            "Level": "8",
+            "Proficiency Bonus": "3"
+        },
+        {
+            "XP": "48000",
+            "Level": "9",
+            "Proficiency Bonus": "4"
+        },
+        {
+            "XP": "64000",
+            "Level": "10",
+            "Proficiency Bonus": "4"
+        },
+        {
+            "XP": "85000",
+            "Level": "11",
+            "Proficiency Bonus": "4"
+        },
+        {
+            "XP": "100000",
+            "Level": "12",
+            "Proficiency Bonus": "4"
+        },
+        {
+            "XP": "120000",
+            "Level": "13",
+            "Proficiency Bonus": "5"
+        },
+        {
+            "XP": "140000",
+            "Level": "14",
+            "Proficiency Bonus": "5"
+        },
+        {
+            "XP": "165000",
+            "Level": "15",
+            "Proficiency Bonus": "5"
+        },
+        {
+            "XP": "195000",
+            "Level": "16",
+            "Proficiency Bonus": "5"
+        },
+        {
+            "XP": "225000",
+            "Level": "17",
+            "Proficiency Bonus": "6"
+        },
+        {
+            "XP": "265000",
+            "Level": "18",
+            "Proficiency Bonus": "6"
+        },
+        {
+            "XP": "305000",
+            "Level": "19",
+            "Proficiency Bonus": "6"
+        },
+        {
+            "XP": "355000",
+            "Level": "20",
+            "Proficiency Bonus": "6"
+        }
+    ],
+    "Full Spell Class": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+    ],
+    "Half Spell Class": [
+        "Paladin",
+        "Ranger"
+    ],
+    "Full Spell Slots Per Spell Level": [
+        {
+            "Level": "1", 
+            "1st": "2",
+            "2nd": "0",
+            "3rd": "0",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "2", 
+            "1st": "3",
+            "2nd": "0",
+            "3rd": "0",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "3", 
+            "1st": "4",
+            "2nd": "2",
+            "3rd": "0",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "4", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "0",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "5", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "2",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "6", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "0",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "7", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "1",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "8", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "2",
+            "5th": "0",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "9", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "1",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "10", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "0",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "11", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "12", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "0",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "13", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "1",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "14", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "1",
+            "8th": "0",
+            "9th": "0"
+        },
+        {
+            "Level": "15", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "1",
+            "8th": "1",
+            "9th": "0"
+        },
+        {
+            "Level": "16", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "1",
+            "8th": "1",
+            "9th": "0"
+        },
+        {
+            "Level": "17", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "2",
+            "6th": "1",
+            "7th": "1",
+            "8th": "1",
+            "9th": "1"
+        },
+        {
+            "Level": "18", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "3",
+            "6th": "1",
+            "7th": "1",
+            "8th": "1",
+            "9th": "1"
+        },
+        {
+            "Level": "19", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "3",
+            "6th": "2",
+            "7th": "1",
+            "8th": "1",
+            "9th": "1"
+        },
+        {
+            "Level": "20", 
+            "1st": "4",
+            "2nd": "3",
+            "3rd": "3",
+            "4th": "3",
+            "5th": "3",
+            "6th": "2",
+            "7th": "2",
+            "8th": "1",
+            "9th": "1"
+        }
+    ]
+}
