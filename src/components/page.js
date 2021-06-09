@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui'
 import '../pages/index.css'
 import { Link } from 'gatsby'
-import sx from '../pages/sx'
+import sx from './sx'
 import dragon from '../images/dragonw.png'
 
 const Page = ({children, data}) => {

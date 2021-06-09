@@ -1,6 +1,4 @@
-import background from "../images/background.png"
-
-const sx = {
+module.exports = {
     pageStyles: {
         minWidth: "100%",
         minHeight: "100%",
@@ -61,13 +59,12 @@ const sx = {
         maxWidth: "75vw",
         display: "inline-block",
         fontFamily: "Lobster",
-        backgroundImage: `url(${background})`,
         borderRadius: "16px",
         backgroundRepeat: "repeat",
         padding: "16px",
         "& p": {
             fontFamily: "Helvetica",
-        }
+        },
     },
     traitStyles: {
         background: "#ffffff66",
@@ -77,5 +74,3 @@ const sx = {
         padding: "8px",
     },
 }
-
-export default sx

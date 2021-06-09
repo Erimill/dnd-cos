@@ -5,7 +5,8 @@ import './index.css'
 import Page from '../components/page'
 import Sidebar from '../components/sidebar'
 import ReturnRender from '../components/render'
-import sx from './sx.js'
+import sx from '../components/sx.js'
+import background from "../images/background.png"
 
 const RacePage = (location) => {
   const data = useStaticQuery(query)
@@ -36,7 +37,7 @@ const RacePage = (location) => {
       <div sx={sx.sidebar}>
         <Sidebar data={list} sx={sx.sidebar} />
       </div>
-      <div sx={sx.main}>
+      <div sx={{backgroundImage: `url(${background})`, ...sx.main}}>
         <title>{title}</title>
         <h1 style={sx.titleStyles}>
           {title}
