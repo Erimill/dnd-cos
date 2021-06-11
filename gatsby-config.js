@@ -4,14 +4,13 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-plugin-s3`,
       options: {
-        icon: "src/images/dragon.png",
+        bucketName: "my-website-bucket",
       },
     },
-    "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
       options: {
